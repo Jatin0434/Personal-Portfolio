@@ -4,10 +4,6 @@ body {
     font-size: 30px;
 }
 
-
-
-/* Body Header */
-
 #body-header {
     height: 65vh;
     opacity: 0.8;
@@ -17,10 +13,6 @@ body {
     background-attachment: fixed;
     padding-top: 1.2rem;
 }
-
-
-
-/* Horizontal Lists */
 
 .horizontal-list {
     list-style: none;
@@ -53,10 +45,6 @@ body {
     text-align: center;
 }
 
-
-
-/* Name and Social Icons*/
-
 #name-social-container {
     margin-top: 20vh;
 }
@@ -78,10 +66,6 @@ body {
 .social-icons li a i:hover {
     box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
 }
-
-
-
-/*Section Classes*/
 
 section {
     display: flex;
@@ -111,10 +95,6 @@ section:nth-child(2n + 1) {
     padding-top: 10px;
     margin-right: 0.5rem;
 }
-
-
-
-/*About Section*/
 
 #about {
     height: auto;
@@ -148,10 +128,6 @@ section:nth-child(2n + 1) {
     margin: auto;
 }
 
-
-
-/*Skills Section*/
-
 .skills-display {
     width: 75%;
     padding: 10px;
@@ -182,10 +158,6 @@ section:nth-child(2n + 1) {
     margin-left: 10px;
     vertical-align: middle;
 }
-
-
-
-/* Work Experience */
 
 .timeline {
     position: relative;
@@ -290,10 +262,6 @@ section:nth-child(2n + 1) {
     text-align: justify;
 }
 
-
-
-/* Portfolio Section */
-
 #portfolio-container {
     box-sizing: border-box;
     display: flex;
@@ -336,10 +304,6 @@ section:nth-child(2n + 1) {
     background-color: #80808078;
     color: white;
 }
-
-
-
-/* Contact Form */
 
 #contact {
     background-color: #0abcf9;
@@ -452,10 +416,6 @@ button:focus {
     outline: none;
 }
 
-
-
-/* Common Margin Classes */
-
 .m0 {
     margin: 0;
 }
@@ -468,19 +428,11 @@ button:focus {
     margin-bottom: 50px;
 }
 
-
-
-/*common color classes */
-
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
 
 }
-
-
-
-/* setting background-color */
 
 .m-blue {
     color: #2857a4;
@@ -501,10 +453,6 @@ button:focus {
 .mb-light-purple {
     background-color: #93738c;
 }
-
-
-
-/*Percentage Classes */
 
 .eighty-five-percent {
     height: inherit;
