@@ -1,260 +1,479 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="shortcut icon" type="image/png" href="ic.png">
-        <link rel="stylesheet" href='./files/style.css'>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        
-    </head>
-    <body>
-        
-        <header class="header">
-            
-            <a href="#" class="logo"><h2>Portfolio</h2></a>
-            <nav class="navbar" id="myLinks">
-                <a href="#Home" style="--i:1" class="active" >Home</a>
-                <a href="#About" style="--i:2">About</a>
-                <a href="#Skills" style="--i:3">Skills</a>
-                <a href="#Projects" style="--i:4">Projects</a>
-                <a href="#Contact" style="--i:5">Contact</a>
-            </nav>
-        </header>
+<html>
 
-        <section class="home" id="Home" style="background-image: url('img/dark-backhome1.jpg');">
-            <div class="home-content">
-                
-                <h3>Hello, It's Me</h3>
-                <h1>Jatin Kumar</h1> 
-                <h4 style="--i:6">I'm a student who is<br>
-                    passionate in <span class="text"></span></h4>
-                
-                <div class="img">
-                     <img src="img/homeImg.jpg" class="responsive">
-                </div>
+<head>
+    <title>Jatin Kumar</title>
 
-                <div class="home-sci">
-                    <a href=https://www.linkedin.com/in/jatin-kumar-1a504424b? target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href=https://www.instagram.com/__jatinvats__? target="_blank"><i class='bx bxl-instagram' ></i></a>
-                    <a href=https://www.facebook.com/profile.php?id=100086141516046&mibextid=ZbWKwLstyle="--i:9" target="_blank"><i class='bx bxl-facebook'></i></a>
-                    <a href="https://github.com/jatin0434"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
-                </div>
-                <a href=https://drive.google.com/file/d/1AImJDy5pv6eytSQGXxYD4dA8zQs4BPR3/view?usp=drivesdk style="--i:11" class="btn-box" target="_blank">Download Resume</a>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <header id="body-header">
+        <nav>
+
+            <ul class="horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <li>
+                    <a href="https://drive.google.com/file/d/15OQkE20cnglbr0SmbZKf4y9TyAoBpmFU/view?usp=drivesdk" class="check-resume-btn">Check Resume</a> 
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Jatin Kumar</h1>
             </div>
-        </section>
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/jatin-kumar-1a504424b/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/__jatinvats__?" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jatin0434" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100086141516046&mibextid=ZbWKwLstyle=" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerrank.com/profile/chauhanjatinraj1" target="_blank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </li>
+                </ul>
 
-        <section>
-            <div class="about" id="About" style="background-image: url('img/blackBack2.jpg');">
-                <div class="about-img">
-                    <img src="img/aboutImg.jpg" class="abt-res">
-                </div>
-                <div class="about-text">
-                    <h2>About <span>Me</span></h2><br>
-                    <p>Passionate about learning new things and technology, I possess strong expertise in 
-                         C++, C, Java, JavaScript, HTML5 and CSS3. A quick learner with a dedication to smart work,
-                         I thrive on challenges and take pride in pushing boundaries.
-                          Always eager to explore innovative solutions, 
-                          I'm motivated by the desire to make a meaningful impact. 
-                          Let's connect and explore the exciting possibilities in the world of programming together.
-                         I like to do different things..<br>
-                        <br>
-                        <a href=https://drive.google.com/file/d/1AImJDy5pv6eytSQGXxYD4dA8zQs4BPR3/view?usp=drivesdkstyle="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
-                    </p>
-                </div>
             </div>
-        </section>
- 
-        <section id="Skills" style="background-image: url('img/blackBack2.jpg');">
-            <h1 class="subtitle">My <span>Skills</span></h1>
-            <div class="sec">
-                <div class="container1">
-                    <h1 class="heading1">Technical Skills</h1>
-                    <div class="Technical-bars">
 
-                        <div class="bar"><i class='bx bxl-html5' style="color: #c9332e;"></i>
-                            <div class="info">
-                                <span>HTML <span class="addhtml"></span></span>
-                            </div>
-                            <div class="progress-line html">
-                                <span></span>
-                            </div>
-                        </div>
-
-                        <div class="bar"><i class='bx bxl-css3' style="color: #147bbc;"></i>
-                            <div class="info">
-                                <span>CSS <span class="addcss"></span></span>
-                            </div>
-                            <div class="progress-line css">
-                                <span></span>
-                            </div>
-                        </div>
-
-                        <div class="bar"><i class='bx bxl-javascript' style="color: #b0bc1e;"></i>
-                            <div class="info">
-                                <span>JavaScript <span class="addpy"></span></span>
-                            </div>
-                            <div class="progress-line javascript">
-                                <span></span>
-                            </div>
-                        </div>
-
-                        <div class="bar"><i class='bx bxl-java' style="color: #c95d2e;"></i>
-                            <div class="info">
-                                <span>Java <span class="addjava"></span></span>
-                            </div>
-                            <div class="progress-line java">
-                                <span></span>
-                            </div>
-                        </div>
-
-                        <div class="bar"><i class='bx bxl-c-plus-plus'style="color: #3db2fc;"></i>
-                            <div class="info">
-                                <span>C/C++ <span class="addc"></span></span>
-                            </div>
-                            <div class="progress-line cpls">
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container2">
-                    <h1 class="heading1">Professional Skills</h1>
-                    <div class="radial-bars">
-                        <div class="radial-bar">
-                            <svg x="0px" y="0px" viewBox="0 0 200 200">
-                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
-                                <circle class="path path-1" cx="100" cy="80" r="80"></circle>
-                            </svg>
-                            <div class="percentage">60%</div>
-                            <div class="text">Problem Solving</div>
-                        </div>
-
-                        <div class="radial-bar">
-                            <svg x="0px" y="0px" viewBox="0 0 200 200">
-                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
-                                <circle class="path path-2" cx="100" cy="80" r="80"></circle>
-                            </svg>
-                            <div class="percentage">70%</div>
-                            <div class="text">Creativity</div>
-                        </div>
-
-                        <div class="radial-bar">
-                            <svg x="0px" y="0px" viewBox="0 0 200 200">
-                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
-                                <circle class="path path-3" cx="100" cy="80" r="80"></circle>
-                            </svg>
-                            <div class="percentage">80%</div>
-                            <div class="text">Communication</div>
-                        </div>
-
-                        <div class="radial-bar">
-                            <svg x="0px" y="0px" viewBox="0 0 200 200">
-                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
-                                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
-                            </svg>
-                            <div class="percentage">90%</div>
-                            <div class="text">Teamwork</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="Projects">
-            <div id="portfolio" class="services" style="background-image: url('img/blackBack1.jpg');">
-                <div class="main-text" id="serv">
-                    <h2>My <span>Projects</span></h2>
-                    <div class="serv-container">
-                        <div class="row">
-                            <img src="img/PortfolioWeb.webp">
-                            <div class="layer">
-                                <h5>Portfolio</h5>
-                                <p>Develop a portfolio website which showing our Strength and Technical skills .</p>
-
-                                <a href="#"><i class='bx bxs-face-mask' style="color: aliceblue;"></i></a>
-
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <img src="img/foodWeb.jpg">
-                            <div class="layer">
-                                <h5>Food Ordering </h5>
-                                <p>Develop a online Food orfering website which provide a different categories of foods.</p>
-                                <a href="#"><i class='bx bxs-low-vision' style="color: aliceblue;"></i></a>  
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <img src="img/jobPortal.webp">
-                            <div class="layer">
-                                <h5>Job Portal</h5>
-                                <p>Develop a online Job website which provide a different categories of Jobs According to individual skills.</p>
-
-                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="Services" style="background-image: url('img/360_F_220174809_nbCGNrT8Cf1i9QqfsrEbbbbR8RPMuoZY.jpg');">
-            <div class="project">
-                <div class="container">
-                    <h1 class="sub-title">My <span>Services</span></h1>
-                    <div class="prj-list">
-                        <div>
-                            <i class='bx bx-code' style="color: #00eeff;"></i>
-                            <h2>Web Development</h2>
-                            <p>Plan, create and code internet sites and web pages with modern and artful design.</p>
-                            
-                        </div>
-                        <div>
-                            <i class='bx bx-cube' style="color: #00eeff;"></i>
-                            <h2>UI / UX Design</h2>
-                            <p>Specialized in creating clean, artful design that are both intuitive and functional.</p>
-                            
-                        </div>
-                        <div>
-                            <i class='bx bxl-android' style="color: #00eeff;"></i>
-                            <h2>Software Development</h2>
-                            <p>Mobile application developer with knowledge of Java.</p>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contacts" id="Contact">
-            <div class="contact-text">
-                <h2>Contact <span>Me</span></h2>
-                <h4>Let's Work Together</h4>
-                <div class="contact-list">
-                    <li><i class='bx bxs-send'></i>chauhanjatinrajput05@gmail.com</li>
-                    <li><i class="bx bxs-phone-call" ></i>+91 9368173251</li>
-                </div>
-                <div class="contact-icons">
-                    <a href="https://github.com/jatin0434" target="_blank"><i class='bx bxl-github'></i></a>
-                    <a href=https://www.facebook.com/profile.php?id=100086141516046&mibextid=ZbWKwLstyle="--i:9" target="_blank"><i class='bx bxl-facebook'></i></a>
-                    <a href=https://www.instagram.com/__jatinvats__? target="_blank"><i class="bx bxl-instagram"></i></a>
-                    <a href=https://www.linkedin.com/in/jatin-kumar-1a504424b? target="_blank"><i class="bx bxl-linkedin"></i></a>
-                </div>
-            </div>    
-        </section>
-        
-        <div class="last-text">
-            <p>Developed by Jatin <i class='bx bx-copyright' style="color: white;"></i> 2024</p>
         </div>
-        <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
-        <script src="./files/script.js"></script>
-    </body>  
-</html>
 
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="JK.jpg">
+            </div>
+
+            <div id="about-para">
+
+                <p>
+                    I am a motivated and versatile individual, always eager to take on new challenges.
+                     With a passion for learning, I am dedicated to delivering high-quality results. 
+                     My diverse skill set allows me to adapt to various roles and responsibilities,
+                      ensuring that I meet and exceed expectations in every project I undertake.With a positive attitude and a growth mindset, 
+                      I am ready to make a meaningful contribution and achieve great things. 
+                      I thrive in dynamic environments where I can continuously expand my knowledge and skills.
+                       My commitment to excellence and my proactive approach enable me to tackle complex problems and drive innovative solutions.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> C++ </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-five-percent mb-orange">
+                        <div class="skill-name">
+                            <span> HTML </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> CSS </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Javascript </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> ReactJS </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-orange">
+                        <div class="skill-name">
+                            <span> Java </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> DSA </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Communication </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> Problem Solving </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="experience">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                <span> Work Experience </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Online Voting System </h3>
+                        <h5 class="experience-duration m0"> April 2024 - Current </h5>
+
+                        <p class="experience-description text-align-justify"> Developed an online voting system designed to provide a secure and efficient platform for
+                            conducting elections. This system leverages a combination of React JS for a dynamic and responsive user
+                            interface, Bootstrap for sleek and mobile-friendly design, Node JS for robust server-side logic, and MySQL
+                            for reliable data storage.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Live Weather App </h3>
+                        <h5 class="experience-duration m0"> Feb 2024 - Mar 2024 </h5>
+                        <p class="experience-description text-align-justify"> Created a live weather forecast app to deliver real-time updates for any location. 
+                            The application integrates data from a reliable weather API, displaying current temperature, humidity, wind speed, and weather conditions. 
+                            This user-friendly app ensures that users can easily access accurate and up-to-date weather information,
+                             helping them plan their activities with confidence. </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation m0 m-blue"> Job Portal </h3>
+                        <h5 class="experience-duration m0"> Oct 2023 - Dec 2023 </h5>
+
+                        <p class="experience-description text-align-justify">Developed a comprehensive job portal to connect job seekers with employers, 
+                            providing a seamless and efficient platform for job search and recruitment. The application integrates advanced search filters, 
+                            resume uploads, and personalized job recommendations, 
+                            making it easier for users to find relevant job opportunities and for employers to discover the right talent. </p>
+                    </div>
+                </div>
+
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="education">
+
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-graduation-cap"></i>
+                </span>
+                <span> Education </span>
+            </h1>
+
+            <div class="timeline">
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> High School </h3>
+                        <h4 class="experience-company-name "> B.K.S.V.M Inter College School </h4>
+                        <h5 class="experience-duration m0"> Apr 2017 - Mar 2018 </h5>
+
+                        <p class="experience-description text-align-justify"> My 10th grade year has been a significant milestone in my academic journey,
+                             marked by a commitment to excellence, personal growth, and active participation in various extracurricular activities. 
+                            This year has provided a strong foundation in key subjects, preparing me for the challenges of higher education. </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> Intermediate </h3>
+                        <h4 class="experience-company-name "> B.K.S.V.M Inter College School </h4>
+                        <h5 class="experience-duration m0"> Apr 2019 - Mar 2020 </h5>
+                        <p class="experience-description text-align-justify">My 12th grade year has been a transformative period marked by academic rigor, 
+                            personal growth, and active engagement in extracurricular pursuits. 
+                            As a student in the Science stream, I have focused on Physics, Chemistry, Mathematics, 
+                            and other core subjects, preparing myself for future academic and professional endeavors in the field . </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box left ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> BSc(Computer Science) </h3>
+                        <h4 class="experience-company-name "> Mahatma Jyotiba Phule Rohilkhand University </h4>
+                        <h5 class="experience-duration m0"> Aug 2020 - Jun 2023 </h5>
+
+                        <p class="experience-description text-align-justify"> My journey through BSc Computer Science has been a transformative experience, 
+                            shaping my understanding of technology and equipping me with essential skills for a career in the dynamic field of computing. </p>
+                    </div>
+                </div>
+
+                <div class="timeline-box right ">
+                    <div class="timeline-container">
+                        <div class="timeline-logo">
+                        </div>
+                        <h3 class="experience-designation  m0 m-blue"> MCA </h3>
+                        <h4 class="experience-company-name "> Chandigarh University </h4>
+                        <h5 class="experience-duration m0"> Aug 2023 - Current </h5>
+                        <p class="experience-description text-align-justify"> My pursuit of a Master's in Computer Applications (MCA) is a pivotal step in my academic and professional journey,
+                             aimed at deepening my expertise in computer science and preparing me for advanced roles in the technology industry. </p>
+                    </div>
+                </div>
+
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-car-side"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-th-list"></i>
+                </span>
+                <span> Portfolio </span>
+            </h1>
+
+            <div id="portfolio-container">
+
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="portfolio-details">
+                        <p>
+                            This project is a personal portfolio website designed to showcase my skills, projects, and achievements.
+                            
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000026_1550237353_project_2.jpeg">
+                    <div class="portfolio-details">
+                        <p>
+                            Created a comprehensive job portal designed to connect job seekers with employers efficiently
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000029_1550237386_project.jpeg">
+                    <div class="portfolio-details">
+                        <p>
+                            This project is a sleek and modern sign-up form designed to enhance your Bootstrap skills. 
+                            
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000027_1550237355_project_3.png">
+                    <div class="portfolio-details">
+                        <p>
+                            The Registration Form is a simple yet robust web application designed to demonstrate best practices
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png">
+                    <div class="portfolio-details">
+                        <p>
+                            The Real-Time Weather App is a sleek, user-friendly application 
+                        </p>
+                    </div>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000028_1550237365_tree.jpeg">
+                    <div class="portfolio-details">
+                        <p>
+                            Developed an online voting system designed to provide a secure and efficient platform for
+                            conducting elections
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols=40
+                            placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+
+                    <h3> Get In touch </h3>
+                    <p> I would love to hear from you! Whether you have a question, a project idea, or just want to connect,
+                         feel free to reach out to me through any of the following methods. </p>
+
+                    <h3> My Address </h3>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bijnor, Uttar Pradesh, India</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>9368173251</span>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="far fa-envelope"></i>
+                        <span>chauhanjatinrajput05@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="horizontal-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/jatin-kumar-1a504424b/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/__jatinvats__?" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/jatin0434" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100086141516046&mibextid=ZbWKwLstyle=" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.hackerrank.com/profile/chauhanjatinraj1" target="_blank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
